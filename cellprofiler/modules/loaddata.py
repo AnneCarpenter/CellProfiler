@@ -141,13 +141,14 @@ Pilot</a>.
 <h4>Available measurements</h4>
 <ul>
 <li><i>Pathname, Filename:</i> The full path and the filename of each image, if
-image loading was requested by the user.</li>
-<li>Per-image information obtained from the input file provided by the user.</li>
+you requested image loading.</li>
 <li><i>Scaling:</i> The maximum possible intensity value for the image format.</li>
-<li><i>Height, Width:</i> The height and width of the current image.</li>
+<li><i>Height, Width:</i> The height and width of images loaded by this module.</li>
+<li>Any additional per-image data loaded from the input file you provided.</li>
 </ul>
 
-See also the <b>Input</b> modules, <b>LoadImages</b> and <b>CalculateStatistics</b>.
+See also the <b>Input</b> modules (i.e., <b>Images</b>, <b>MetaData</b>,
+<b>NamesAndTypes</b>, and <b>Groups</b>), <b>LoadImages</b> and <b>CalculateStatistics</b>.
 '''
 
 import csv
